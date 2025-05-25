@@ -2,23 +2,105 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>SmartData Control</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Inteligente de Datos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #1d1d1d; color: #fefefe; padding: 20px 0; text-align: center; }
+    nav { background: #333; text-align: center; }
+    nav a { display: inline-block; color: white; padding: 15px 20px; text-decoration: none; }
+    nav a:hover { background: #555; }
+    section { padding: 20px; max-width: 1000px; margin: auto; background: white; margin-top: 10px; }
+    h2 { color: #333; }
+    footer { background: #1d1d1d; color: #fefefe; text-align: center; padding: 10px; margin-top: 20px; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>SmartData Control</h1>
-        <p>Gestión inteligente de datos</p>
-    </header>
-    <main>
-        <section>
-            <h2>Bienvenidos</h2>
-            <p>Este es un sitio de ejemplo para demostrar cómo publicar una página en línea usando GitHub Pages.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 SmartData. Todos los derechos reservados.</p>
-    </footer>
+  <header>
+    <h1>Control Inteligente de Datos</h1>
+    <p>Instrumentación Virtual y Gestión Inteligente de Datos para Centros de Datos</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">✅ Inicio</a>
+    <a href="#nosotros">ℹ️ Sobre Nosotros</a>
+    <a href="#servicios">🛠️ Servicios</a>
+    <a href="#portafolio">🖼️ Portafolio</a>
+    <a href="#recursos">📚 Recursos</a>
+    <a href="#faq">❓ FAQ</a>
+    <a href="#contacto">📬 Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p><strong>Misión:</strong> Ofrecer soluciones innovadoras de instrumentación virtual para el monitoreo y control inteligente de procesos industriales y tecnológicos.</p>
+    <p><strong>Visión:</strong> Ser referentes en Latinoamérica en el desarrollo de sistemas de adquisición de datos y visualización virtual eficiente.</p>
+    <p>Este proyecto propone un sistema para monitorear condiciones críticas (temperatura, humedad, consumo energético e incendios) en centros de datos, utilizando sensores, Arduino y LabVIEW.</p>
+  </section>
+
+  <section id="nosotros">
+    <h2>ℹ️ Sobre Nosotros</h2>
+    <p>Soy Erlyn René Tobar Chamorro, estudiante de Ingeniería Electrónica en la UNAD. Tengo formación como tecnólogo en mecatrónica y actualmente curso una especialización en seguridad informática. Me especializo en automatización y visualización en tiempo real.</p>
+    <ul>
+      <li>Diseño del sistema físico y simulación en Proteus</li>
+      <li>Integración hardware-software y pruebas</li>
+      <li>Desarrollo del instrumento virtual, documentación técnica y diseño web</li>
+    </ul>
+  </section>
+
+  <section id="servicios">
+    <h2>🛠️ Servicios</h2>
+    <ul>
+      <li>Desarrollo de interfaces HMI en LabVIEW</li>
+      <li>Simulación de sistemas de adquisición de datos en Proteus</li>
+      <li>Integración de sensores industriales con microcontroladores</li>
+      <li>Desarrollo de paneles de control virtuales personalizados</li>
+      <li>Exportación y almacenamiento de datos en tiempo real</li>
+    </ul>
+  </section>
+
+  <section id="portafolio">
+    <h2>🖼️ Portafolio de Servicios</h2>
+    <p><strong>Problema:</strong> Monitorear condiciones críticas en centros de datos para prevenir fallos y optimizar recursos.</p>
+    <p><strong>Metodología:</strong> Análisis del problema → Selección de sensores → Simulación en Proteus → Visualización y control en LabVIEW → Exportación de datos.</p>
+    <ul>
+      <li>Fase 1: Identificación de variables y sensores</li>
+      <li>Fase 2: Implementación del sistema de adquisición en Proteus</li>
+      <li>Fase 3: Comunicación y visualización con LabVIEW</li>
+      <li>Fase 4: Control automático, almacenamiento y exportación de datos</li>
+    </ul>
+    <p><a href="https://drive.google.com/file/d/1FOMwekSNUfA-l57-K-xVo6rBplCuXyJI/view?usp=sharing" target="_blank">📄 Infografías</a></p>
+  </section>
+
+  <section id="recursos">
+    <h2>📚 Recursos</h2>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1LUjq_3OBVGYTyG-_yU-6rAysEKHplxp0/view?usp=sharing" target="_blank">Proyecto desarrollado en Proteus</a></li>
+      <li><a href="https://drive.google.com/file/d/1MYjYhGZR-EUQwC2SJk5mitc4ZNNAjSP7/view?usp=sharing" target="_blank">Código Arduino</a></li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2>❓ Preguntas Frecuentes</h2>
+    <ul>
+      <li><strong>¿Qué sensores se usaron?</strong> DHT11, ACS712 y sensor de llama.</li>
+      <li><strong>¿Qué software usaron?</strong> Proteus 8, LabVIEW, Arduino IDE.</li>
+      <li><strong>¿Cómo se comunica el sistema?</strong> A través de puertos seriales virtuales COM.</li>
+      <li><strong>¿Puedo usar este sistema en la vida real?</strong> Sí, con ajustes mínimos.</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>📬 Contacto</h2>
+    <p>📧 contacto@smartdatacontrol.co</p>
+    <p>✉️ Erlyn René Tobar Chamorro – ertobar721@gmail.com</p>
+    <p>📱 Teléfonos: (+57) 322 537 5663</p>
+    <p>📍 Sandoná - Nariño, Colombia</p>
+  </section>
+
+  <footer>
+    <p>© 2025 SmartData Control. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
